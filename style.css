@@ -1,0 +1,222 @@
+/* ===== FONTS & BASE ===== */
+body {
+    margin: 0;
+    background: #f7f4ef;
+    color: #3a1f1f;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: linear-gradient(to bottom, #4c0e17, #2a0b0d);
+    color: #f8f5ef;
+    text-align: center;
+    padding: 2.5rem 0 1.2rem 0;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+    border-bottom: 2px solid #cbb19c;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.2rem;
+    margin: 0;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+nav {
+    margin-top: 1.2rem;
+}
+
+nav a {
+    color: #f3e8da;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+    color: #d9a86c;
+}
+.hero {
+    background: url('https://imgs.search.brave.com/MY3nxUs5OfsbwBIOojLmo056MeZikjGG4Nt23djFBLg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ycC1j/bXMuaW1naXgubmV0/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9Db21v/LUl0YWx5LUxhbmRz/Y2FwZS1BZG9iZVN0/b2NrXzg0NjQ2MTg1/Ny0xMDI0eDM1NC5q/cGVnP2ZpdD1tYXgm/dz0xMDI0Jmg9MzU0') center center/cover no-repeat;
+    color: #fff;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(40, 20, 10, 0.45);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #f8f5ef;
+    max-width: 700px;
+    padding: 1rem;
+}
+
+.hero-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.btn {
+    background: #801f2f;
+    color: #f8f5ef;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s;
+    text-decoration: none;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background: #a1283c;
+    transform: translateY(-3px);
+}
+
+.btn-small {
+    font-size: 0.95rem;
+}
+.section {
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+    color: #4c0e17;
+    text-align: center;
+    border-bottom: 1px solid #b6977f;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
+.wines {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.wine-card {
+    background: #fff9f6;
+    border-radius: 12px;
+    border: 1px solid #d8c2b0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    width: 260px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.wine-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.wine-card img {
+    width: 90px;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    filter: sepia(0.4);
+}
+.wine-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+    color: #801f2f;
+}
+
+.wine-card p {
+    font-size: 1rem;
+    color: #3a1f1f;
+    margin-bottom: 0.8rem;
+}
+.about {
+    background: #f1e3dc;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-top: 2.5rem;
+    color: #3a1f1f;
+    font-size: 1.15rem;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #cbb19c;
+}
+
+.about h2 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 0;
+    color: #4c0e17;
+    font-size: 1.8rem;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #2a0b0d;
+    color: #f8f5ef;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 1rem;
+    margin-top: 4rem;
+    letter-spacing: 1px;
+    border-top: 2px solid #801f2f;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 800px) {
+    .wines {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wine-card {
+        width: 90%;
+    }
+
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    nav a {
+        margin: 0 1rem;
+        font-size: 1rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+}
