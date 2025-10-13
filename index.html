@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <title>Curriculum Vitae – Mihai Felix Ionescu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --neon-blue: #00ffff;
+            --neon-pink: #ff00ff;
+            --dark-background: #111111;
+            --text-color: #e0e0e0;
+        }
+
+        body {
+            font-family: 'Consolas', monospace;
+            margin: 0;
+            padding: 30px;
+            background-color: var(--dark-background);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .cv-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #1a1a1a;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.2), 0 0 10px rgba(255, 0, 255, 0.1);
+            border: 1px solid var(--neon-blue);
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--neon-blue);
+            text-shadow: 0 0 5px var(--neon-blue);
+            margin-bottom: 5px;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: var(--neon-pink);
+            border-bottom: 2px solid var(--neon-pink);
+            text-shadow: 0 0 3px var(--neon-pink);
+            padding-bottom: 5px;
+            margin-top: 35px;
+            font-weight: normal;
+        }
+
+        h3 {
+            color: var(--neon-blue);
+            text-shadow: 0 0 2px var(--neon-blue);
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+        
+        a {
+            color: var(--neon-blue);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        a:hover {
+            color: var(--neon-pink);
+            text-shadow: 0 0 5px var(--neon-pink);
+        }
+        .personal-data {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px dashed var(--neon-blue);
+            padding-bottom: 20px;
+        }
+
+        .personal-data img {
+            width: 100px;
+            height: 120px;
+            object-fit: cover;
+            border: 2px solid var(--neon-pink);
+            box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+            margin-right: 20px;
+        }
+
+        .details p {
+            margin: 0;
+        }
+        
+        .details strong {
+            color: var(--neon-pink);
+        }
+        .section-content {
+            margin-left: 20px;
+            padding-left: 10px;
+            border-left: 1px solid var(--neon-blue);
+        }
+        .job, .education-item {
+            margin-bottom: 25px;
+        }
+        .job p, .education-item p {
+            margin: 0;
+            font-size: 0.9em;
+            color: var(--text-color);
+        }
+        .job ul {
+            padding-left: 30px;
+            margin-top: 5px;
+            list-style-type: none;
+        }
+        .job ul li:before {
+            content: ">>";
+            color: var(--neon-pink);
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .skill-group {
+            width: 32%; /* 3 coloane */
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px dashed var(--neon-blue);
+        }
+
+        .skill-group h4 {
+            color: var(--neon-blue);
+            margin-top: 0;
+            margin-bottom: 5px;
+            border-bottom: 1px dashed var(--neon-pink);
+            padding-bottom: 3px;
+        }
+
+        .skill-group ul {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 0;
+        }
+        
+        .skill-group ul li:before {
+            content: "★";
+            color: var(--neon-pink);
+            margin-right: 5px;
+        }
+        .additional-info ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .additional-info ul li strong {
+            color: var(--neon-pink);
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="cv-container">
+
+    <h1>&lt;CV_PROIECT_01&gt;</h1>
+    <h3 style="text-align: center; color: var(--text-color); font-weight: normal;">MIHAI FELIX IONESCU</h3>
+
+    <h2>&gt;&gt; INFORMAȚII_CONTACT</h2>
+    <div class="personal-data">
+        <img src="Screenshot_16.png" alt="Fotografie cu mine">
+        <div class="details">
+            <p><strong>Nume Prenume:</strong> Mihai Felix Ionescu</p>
+            <p><strong>Adresă:</strong> Str.Navodari,Bloc G10,Scara 1B,Ap.3</p>
+            <p><strong>Telefon:</strong> <a href="tel:+40731464316">+40 731 464 316</a></p>
+            <p><strong>Email:</strong> <a href="mailto:mihai.ionescu1605@gmail.com">mihai.ionescu1605@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/felliics" target="_blank">linkedin.com/in/felliics</a></p>
+        </div>
+    </div>
+
+    <h2>&gt;&gt; EXPERIENȚĂ PROFESIONALĂ</h2>
+    <div class="section-content">
+        <div class="job">
+            <h3>Stagiu Inginerie Mentenanță</h3>
+            <p><strong>Angajator:</strong> Saint Gobain Glass</p>
+            <p><strong>Perioada:</strong> 06.2025 – 08.2025</p>
+            <p><strong>Principalele Responsabilități:</strong></p>
+            <ul>
+                li>Participarea la operațiunile de mentenanță preventivă și corectivă a echipamentelor industriale[cite: 9, 16].</li>
+                li>Asistarea inginerilor în diagnosticarea și rezolvarea rapidă a problemelor tehnice[cite: 20].</li>
+                li>Familiarizarea cu sisteme de automatizare industrială și PLC-uri[cite: 17].</li>
+            </ul>
+        </div>
+        </div>
+
+    <h2>&gt;&gt; EDUCAȚIE ȘIFORMARE</h2>
+    <div class="section-content">
+        <div class="education-item">
+            <h3>Licență în Inginerie Industrială și Robotică</h3>
+            <p><strong>Instituția de învățământ:</strong> Universitatea Politehnica din București [cite: 11]</p>
+            <p><strong>Perioada de studiu:</strong> 2023 – 2027 [cite: 12]</p>
+            <p><strong>Titlul obținut:</strong> În curs de obținere</p>
+            <p><strong>Specializarea:</strong> Inginerie Industrială și Robotică [cite: 13]</p>
+        </div>
+        </div>
+
+    <h2>&gt;&gt; COMPETENȚE PERSONALE</h2>
+    <div class="skills-list">
+        
+        <div class="skill-group">
+            <h4>&lt;LIMBI STRĂINE&gt;</h4>
+            <ul>
+                <li>Română: Nativ / 100% </li>
+                <li>Engleză: Avansat / 100%</li>
+            </ul>
+        </div>
+        
+        <div class="skill-group">
+            <h4>&lt;COMPETENȚE DIGITALE&gt;</h4>
+            <ul>
+<li>Automatizare și PLC (Programare Logică): Începător</li>
+<li>Operare Echipamente Industriale: Mediu </li>
+<li>Mentenanță industrială (diagnoză, reparații): Mediu </li>
+            </ul>
+        </div>
+
+        <div class="skill-group">
+            <h4>&lt;ALTE COMPETENȚE&gt;</h4>
+            <ul>
+<li>Lucru în echipă: Avansat [cite: 18]</li>
+<li>Atenție la detalii: Avansat [cite: 19]</li>
+<li>Organizare și prioritizare: Avansat [cite: 20]</li>
+                <li>Comunicare: Mediu (Implică munca în echipă)</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>&gt;&gt; INFORMAȚII SUPLIMENTARE</h2>
+    <div class="section-content additional-info">
+        <ul>
+            <li><strong>Proiecte relevante:</strong> Developer EventMatch.apk,Fondator si fullstack developer Casadivini.shop</li>
+            <li><strong>Activități:</strong> Lucrez la o aplicatie,EventMatch,functioneaza in stilul aplicatiei Tinder doar ca faci match cu evenimente din tara in care te aflii,in felul acesta poti afla de un anume eveniment cu cateva saptamani inainte sa inceapa,nu fix in ziua respectiva</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
